@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.name {
+    font-family: 'Inter-Bold';
+    color: rgb(0, 102, 150);
+    font-size: 2rem;
+}
+    
+
+.profile {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    height: 90vh;
+    font-family: 'Inter-Bold';
+    font-size: 20px;
+    border: 0px;
+    border-radius: 1rem;
+    padding: 0.01rem;
+    margin: 20rem;
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(35, 34, 34);
+}
+
+
+.profile img {
+
+    width: 180px;
+    height: 200px;
+    border: 1px solid blue;
+    
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter-Regular';
+    font-size: 18px;
+    border: 0px;
+    border-radius: 1rem;
+    padding: 0.01rem;
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(35, 34, 34);
+}
+
+.social-links{ 
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.social-links a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    text-decoration: none;
+}
+
+
+.social-links button{
+    width: 400px; /* Or whatever fixed width you want */
+    height: 40px;
+    font-family: 'Inter-Bold';
+    size: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0px;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin: 0.2rem;
+    color: white;
+    background-color: rgb(52, 52, 52);
+    cursor: pointer;
+
+}
+
+.social-links button:hover{
+    background-color: transparent rgb(0, 102, 150);
+}
+
+body {
+    /*background-image: url('./assets/images/landscape wallpaper desktop aesthetic - {4k}.jpeg');*/
+    background-repeat: no-repeat;
+    background-image: image-set(url('./assets/images/landscape wallpaper desktop aesthetic - {4k}.jpeg') 1x, url('./assets/images/landscape wallpaper desktop aesthetic - {4k}.jpeg') 2x);
+    background-size: cover;
+    color: white;
+    align-items: center;
+    
+}
